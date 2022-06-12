@@ -1,0 +1,175 @@
+:root {
+    --white: #f9faf8;
+    --off-white: #e5e7eb;
+    --blue: #3882f6;
+    --grey: #e5e7eb;
+    --black: #1f2937;
+}
+
+/* Shared elements */
+html {
+    font-size: small;
+    font-family: Rotobo, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: var(--white);
+}
+
+button {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 8px 32px;
+    border-radius: 0.5em;
+    border-color: var(--blue);
+}
+
+/* Header */
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    padding: 16px 100px 100px 100px;
+}
+
+#header figure {
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+#hero-img {
+    height: 200px;
+    min-width: 400px;
+    background-color: #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+}
+
+#header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#header-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* Info */
+#info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#info {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 50px; 
+}
+
+.card-img {
+    border: 3px solid var(--blue);
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.card-stack {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    justify-content: center;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card-text {
+    margin-top: 5px;
+}
+
+/* Quote */
+#quote {
+    background-color: var(--grey);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 100px 200px;
+}
+
+#quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#quote p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Action */
+#action {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#action h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#action button {
+    border-color: var(--white);
+}
+
+#action-content {
+    background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px 100px;
+    gap: 100px;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    padding: 20px;
+}
